@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STTabBarController'
-  s.version          = '0.3.0'
+  s.version          = '0.3.2'
   s.summary          = 'Sujiewen Testing!!!'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'STTabBarController' => ['STTabBarController/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'STTabBarController/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
