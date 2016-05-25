@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "STTabBarController"    #名称
-  s.version          = "0.1.0"             #版本号
+  s.version          = "0.1.1"             #版本号
   s.summary          = "Sjw Testing."     #简短介绍，下面是详细介绍
   s.description      = <<-DESC
                        Testing public Podspec.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"           #截图
   s.license          =  { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { "sujiewen" => "sujiewen@qq.com" }                   #作者信息
-  s.source           = { :git => "https://github.com/sujiewen/STTabBarController.git", :tag => "0.1.0" }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
+  s.source           = { :git => "https://github.com/sujiewen/STTabBarController.git", :tag => "0.1.1" }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
   # s.social_media_url = 'https://github.com/lovesunstar/STKit'                       #多媒体介绍地址
 
   s.platform     = :ios, '7.0'            #支持的平台及版本
@@ -22,5 +22,4 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'STTabBarController/**/*.h'   #公开头文件地址
   s.frameworks = 'UIKit','Foundation'                  #所需的framework，多个用逗号隔开
-  #s.dependency 'AFNetworking', '~> 2.3'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
 end
