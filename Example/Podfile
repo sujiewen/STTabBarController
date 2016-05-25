@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'STTabBarController_Example' do
+  pod 'STTabBarController', :path => '../'
+
+  target 'STTabBarController_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

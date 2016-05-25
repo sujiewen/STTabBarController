@@ -1,3 +1,0 @@
-If you are using STTabBarController in your project
-
-this is the MIT License.
