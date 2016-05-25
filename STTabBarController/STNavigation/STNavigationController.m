@@ -980,7 +980,7 @@ static char *const STViewControllerKeyboardSnapshotView = "STViewControllerKeybo
         return NO;
     }
     return YES;
-    return (!viewController.navigationBarHidden) || (viewController.customTabBarController && !viewController.hidesBottomBarWhenPushed);
+//    return (!viewController.navigationBarHidden) || (viewController.customTabBarController && !viewController.hidesBottomBarWhenPushed);
 }
 
 - (UIViewController *)_wrapperViewController:(UIViewController *)viewController {
