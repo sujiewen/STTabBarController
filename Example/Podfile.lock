@@ -1,0 +1,14 @@
+PODS:
+  - STTabBarController (0.2.1)
+
+DEPENDENCIES:
+  - STTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  STTabBarController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  STTabBarController: 2e65cb307347ba6e9120510a8ffa5eccee520315
+
+COCOAPODS: 0.39.0
