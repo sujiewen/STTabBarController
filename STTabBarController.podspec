@@ -16,8 +16,8 @@ s.source           = { :git => "https://github.com/sujiewen/STTabBarController.g
 s.platform     = :ios, '7.0'
 s.requires_arc = true
 
-s.source_files = 'STTabBarController/**/*'
+s.source_files = 'STTabBarController/**/*','STTabBarController/STNavigation/*','STTabBarController/STTabBar/*'
 
-s.public_header_files = 'STTabBarController/**/*.h'
+s.public_header_files = 'STTabBarController/**/*.h','STTabBarController/STNavigation/*.h','STTabBarController/STTabBar/*.h'
 s.frameworks = 'UIKit','Foundation'
 end
