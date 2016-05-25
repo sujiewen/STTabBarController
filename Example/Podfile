@@ -1,5 +1,0 @@
-use_frameworks!
-
-target 'STTabBarController_Example' do
-  pod 'STTabBarController', :path => '../'
-end

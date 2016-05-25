@@ -1,6 +1,0 @@
-framework module STTabBarController {
-  umbrella header "STTabBarController-umbrella.h"
-
-  export *
-  module * { export * }
-}
